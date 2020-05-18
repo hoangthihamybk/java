@@ -15,6 +15,7 @@ public class DemoApplication {
         Student student = context.getBean(Student.class);
         System.out.println(student);
         System.out.println(student.subject);
+        student.subject.title();
 
     }
 

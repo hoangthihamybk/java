@@ -2,7 +2,8 @@ package com.example.demo;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("math")
+//@Scope("prototype")
 public class Math implements Subject{
     @Override
     public void title() {
